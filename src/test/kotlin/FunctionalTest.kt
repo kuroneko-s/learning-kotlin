@@ -89,13 +89,7 @@ class FunctionalTest {
 //        assertEquals(filterMessageList.size, 1)
         assertTrue { messageList.any(Message::isImportant) }
     }
-
-
 }
-
-class AppendClass(
-    val sample: String
-)
 
 data class Message(
     val sender: String,
