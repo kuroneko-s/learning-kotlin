@@ -93,6 +93,9 @@ class FunctionalTest {
 
 }
 
+class AppendClass(
+    val sample: String
+)
 
 data class Message(
     val sender: String,
